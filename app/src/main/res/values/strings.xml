@@ -1,0 +1,39 @@
+<resources>
+
+
+    <string name="admob_app_id" translatable="false">ca-app-pub-3940256099942544~3347511713</string>
+
+
+    <string name="google_developer_id" translatable="false">AndroMou Ltd.</string>
+    <string name="app_name" translatable="false">Max Stream</string>
+
+
+    <string name="enter_url">Search or Type URL</string>
+
+    <string name="no_link">No Link</string>
+    <string name="delete">Delete</string>
+    <string name="open_url">Open Url</string>
+    <string name="copy_url">Copy Url</string>
+    <string name="share">Share</string>
+
+    <string name="rate">Rate Us</string>
+    <string name="privacy_policy">Privacy Policy</string>
+
+
+    <!-- Strings used for fragments for navigation -->
+
+    <string name="developer_email" translatable="false">tubeviedo@gmail.com</string>
+
+    <!--
+       Easy Tube Video Downloader Master
+
+
+
+
+
+
+
+    -->
+
+
+</resources>

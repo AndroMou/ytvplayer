@@ -1,0 +1,21 @@
+<!-- Example layout file: dialog_link_input.xml -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/input_dialog_edittext_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingStart="@dimen/_4sdp"
+        android:hint="Title"/>
+
+    <EditText
+        android:id="@+id/input_dialog_edittext_url"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingStart="@dimen/_4sdp"
+        android:hint="URL"/>
+
+</LinearLayout>

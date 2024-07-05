@@ -1,0 +1,22 @@
+<FrameLayout xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/fram"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <androidx.media3.ui.PlayerView
+        android:id="@+id/exoPlayerView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/gnt_black"
+        app:controller_layout_id="@layout/custom_controls"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:resize_mode="fixed_width"
+        app:show_buffering="when_playing"
+        tools:ignore="MissingClass">
+
+    </androidx.media3.ui.PlayerView>
+</FrameLayout>

@@ -1,0 +1,2 @@
+rootProject.name = "MaxStreamYTVPlayer"
+include ':app'
